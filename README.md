@@ -1,36 +1,90 @@
-# CalTrackPro: Your Personal Nutrition Assistant
+## README.md
 
-## Overview
+# CalTrack Pro: Your Personal Nutrition Assistant
 
-CalTrackPro is a Streamlit-based application designed to help you take control of your nutrition and fitness journey. It provides a user-friendly interface for tracking calories, planning meals, analyzing nutrients, monitoring progress, and integrating with fitness trackers. Whether you're aiming to lose weight, gain muscle, or simply improve your overall health, CalTrackPro can be your personalized guide.
+A comprehensive web application for nutrition tracking, meal planning, and fitness progress monitoring built with Streamlit.
 
-## Features
+## Description
 
-- **Home:** Calculate your BMR and TDEE based on your profile information.
-- **Meal Planner:** Plan your meals, track calorie intake, and get meal suggestions.
-- **Nutrient Analysis:** Analyze the nutritional content of different foods and get meal recommendations based on your dietary preferences.
-- **Progress Tracking:** Log your weight, body measurements, and view your progress over time. Set goals and track your progress towards them.
-- **Fitness Tracker Integration:** Connect your fitness tracker (currently mocked) to sync activity data and adjust your calorie goals accordingly.
+CalTrack Pro is an all-in-one nutrition and fitness tracking solution that helps users:
+
+- Plan and track daily meals with detailed nutritional information
+- Analyze nutrient intake and get personalized meal recommendations
+- Monitor fitness progress with measurements and goals
+- Integrate with fitness tracking devices
+- Access educational content about nutrition and healthy eating habits
+
+### Key Features
+
+- 📊 Detailed nutrient analysis and visualization
+- 🍽️ Intelligent meal planning and recommendations
+- 📈 Progress tracking with multiple metrics
+- 📱 Fitness tracker integration
+- 📚 Nutrition education resources
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/CalTrackPro.git`
-2. Navigate to the project directory: `cd CalTrackPro`
-3. Create a virtual environment (optional but recommended): `python3 -m venv env`
-4. Activate the virtual environment:
-   - On Windows: `env\Scripts\activate`
-   - On macOS/Linux: `source env/bin/activate`
-5. Install the required packages: `pip install -r requirements.txt`
+1. Clone the repository:
 
-## Running the App
+```bash
+git clone https://github.com/Daniel-Osman/Streamlit-CalTrackPro.git.git
+cd caltrack-pro
+```
 
-1. Ensure your virtual environment is activated.
-2. Run the Streamlit app: `streamlit run main.py`
+2. Create and activate a virtual environment (recommended):
 
-## Contributing
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
 
-Contributions are welcome! Please feel free to submit pull requests for bug fixes, feature enhancements, or new features.
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Start the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+2. Open your web browser and navigate to `http://localhost:8501` (or the URL provided in the terminal).
+
+3. Begin by entering your profile information on the home page to get personalized recommendations.
+
+### Example Usage
+
+1. **Home Page**: Enter your basic information to calculate your daily caloric needs.
+2. **Meal Planner**: Plan your daily meals and track nutritional intake.
+3. **Nutrient Analysis**: Analyze specific foods and get detailed nutritional information.
+4. **Progress Tracking**: Log and visualize your fitness progress over time.
+5. **Fitness Integration**: Connect your fitness tracking device for automated activity monitoring.
+
+## Development
+
+To contribute to CalTrack Pro:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Daniel Osman - [@\_Daniel_Osman](https://x.com/_Daniel_Osman)
+
+Project Link: [https://github.com/Daniel-Osman/Streamlit-CalTrackPro](https://github.com/Daniel-Osman/Streamlit-CalTrackPro)
